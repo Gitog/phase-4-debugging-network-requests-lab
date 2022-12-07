@@ -63,11 +63,14 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+     -I checked create route in the controller. Released it was written in plural instead of singular
 
 - Update the number of likes for a toy
 
   - How I debugged:
+    - I checked why likes were not increasing and realised there was no render in update method. added it
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+    -I checked routes and noted destroy route was missing, i aded it 
